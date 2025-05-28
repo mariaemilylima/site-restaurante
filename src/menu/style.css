@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); 
+
 *{
     padding: 0%;
     margin: 0%;
@@ -5,7 +7,45 @@
 }
 
 nav{
+    position: fixed;
     width: 100vw;
     height: 15vh;
     background-color: #66334b;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img{
+    margin-left: 6%;
+    width: 20%;
+    height: 15vh;
+}
+
+nav ul li{
+    margin-right: 100px;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 5px 0;
+    display: inline-block;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover{
+    background-color: #F0D7D3;
+    color: black;
+    border-radius: 2px;
+    transition: all 0.3s ease-in-out;
+    padding: 10px 10px;
+    
+
+    
 }
